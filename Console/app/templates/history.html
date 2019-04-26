@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>antionline论坛</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="icon" type="image/png" href="../static/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../static/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <script src="../static/js/echarts.min.js"></script>
+    <!--../static/css/zabuto_calendar.css-->
+    <link rel="stylesheet" href="../static/css/amazeui.min.css" />
+    <link rel="stylesheet" href="../static/css/amazeui.datatables.min.css" />
+    <link rel="stylesheet" href="../static/css/app.css">
+    <script src="../static/js/jquery.min.js"></script>
+
+</head>
+
+<body data-type="widgets">
+    <script src="assets/js/theme.js"></script>
+    <div class="am-g tpl-g">
+        <!-- 风格切换 -->
+        <div class="tpl-skiner">
+            <div class="tpl-skiner-toggle am-icon-cog">
+            </div>
+            <div class="tpl-skiner-content">
+                <div class="tpl-skiner-content-title">
+                    选择主题
+                </div>
+                <div class="tpl-skiner-content-bar">
+                    <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                    <span class="skiner-color skiner-black" data-color="theme-black"></span>
+                </div>
+            </div>
+        </div>
+        <!-- 内容区域 -->
+
+            <div class="row-content am-cf">
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">最近六天</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+
+                                            <th>日期</th>
+                                            <th>温度</th>
+                                            <th>湿度</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    {% for antionline_list in stble_six %}
+                                    <tbody>
+                                        <tr class="gradeX">
+                                            <td>{{ antionline_list[3] }}</td>
+                                            <td>{{ antionline_list[1] }}</td>
+                                            <td>{{ antionline_list[2] }}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> <a href="hist_day/{{ antionline_list[0] }}">查看</a>
+                                                    </a>
+                                                    <a href="javascript:;" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- more data -->
+                                    </tbody>
+                                    {% endfor %}
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+										<div class="am-u-sm-12 am-u-md-12 am-u-lg-6">
+										                        <div class="widget am-cf">
+										                            <div class="widget-head am-cf">
+										                                <div class="widget-title am-fl">近期报警</div>
+										                                <div class="widget-function am-fr">
+										                                    <a href="javascript:;" class="am-icon-cog"></a>
+										                                </div>
+										                            </div>
+										                            <div class="widget-body  widget-body-lg am-fr">
+
+										                                <table width="100%" class="am-table am-table-compact tpl-table-black " id="example-r">
+										                                    <thead>
+										                                        <tr>
+
+										                                            <th>日期</th>
+                                                                                    <th>温度</th>
+                                                                                    <th>湿度</th>
+                                                                                    <th>操作</th>
+										                                        </tr>
+										                                    </thead>
+                                                                            {% for antionline_list in stble_six_notice %}
+										                                    <tbody>
+										                                        <tr class="gradeX">
+
+										                                             <td>{{ antionline_list[3] }}</td>
+                                                                                     <td>{{ antionline_list[1] }}</td>
+                                                                                     <td>{{ antionline_list[2] }}</td>
+										                                            <td>
+										                                                <div class="tpl-table-black-operation">
+										                                                    <a href="javascript:;">
+										                                                        <i class="am-icon-pencil"></i> <a href="hist_day/{{ antionline_list[0] }}">查看</a>
+										                                                    </a>
+										                                                    <a href="javascript:;" class="tpl-table-black-operation-del">
+										                                                        <i class="am-icon-trash"></i> 删除
+										                                                    </a>
+										                                                </div>
+										                                            </td>
+										                                        </tr>
+										                                        <!-- more data -->
+										                                    </tbody>
+                                                                             {% endfor %}
+										                                </table>
+
+										                            </div>
+										                        </div>
+										                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">所有数据</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body  widget-body-lg am-fr">
+
+                                <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black " id="example-r">
+                                    <thead>
+                                        <tr>
+                                            <th>日期</th>
+                                            <th>温度</th>
+                                            <th>湿度</th>
+                                            <th>操作</th>
+                                        </tr>
+                                    </thead>
+                                    {% for antionline_list in table_all %}
+                                    <tbody>
+                                        <tr class="gradeX">
+                                            <td>{{ antionline_list[3] }}</td>
+                                            <td>{{ antionline_list[1] }}</td>
+                                            <td>{{ antionline_list[2] }}</td>
+                                            <td>
+                                                <div class="tpl-table-black-operation">
+                                                    <a href="javascript:;">
+                                                        <i class="am-icon-pencil"></i> <a href="hist_day/{{ antionline_list[0] }}">查看</a>
+                                                    </a>
+                                                    <a href="javascript:;" class="tpl-table-black-operation-del">
+                                                        <i class="am-icon-trash"></i> 删除
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <!-- more data -->
+                                    </tbody>
+                                    {% endfor %}
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="../static/js/amazeui.min.js"></script>
+    <script src="../static/js/amazeui.datatables.min.js"></script>
+    <script src="../static/js/dataTables.responsive.min.js"></script>
+    <script src="../static/js/app.js"></script>
+
+</body>
+
+</html>

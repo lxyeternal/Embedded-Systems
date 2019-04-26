@@ -1,3 +1,4 @@
+from history_data import *
 from app import get_logger, get_config
 import math
 from flask import render_template, redirect, url_for, flash, request
@@ -84,6 +85,24 @@ def index():
 @login_required
 def now():
     return render_template('now.html')
+
+
+# 当前数据
+@main.route('/hist_day/<datatime>',methods = ['GET'])
+@login_required
+def hist_day(datatime):
+    time_data, tem_list, hum_list = data_find(datatime)
+    return render_template('hist_day.html',time_data = time_data,tem_list = tem_list,hum_list = hum_list)
+
+# 历史数据
+@main.route('/history',methods = ['GET'])
+@login_required
+def history():
+    stble_six = select_table_six()
+    stble_six_notice = select_table_notice_six()
+    table_all = select_all_data()
+    return render_template('history.html',stble_six = stble_six,stble_six_notice = stble_six_notice,table_all = table_all)
+
 
 # 通知方式查询
 @main.route('/notifylist', methods=['GET', 'POST'])

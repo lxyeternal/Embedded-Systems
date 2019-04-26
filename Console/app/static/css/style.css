@@ -402,7 +402,6 @@ ul.sidebar-menu li a.active i {
     margin-left: 210px;
 }
 
-
 .header, .footer {
     min-height: 60px;
     padding: 0 15px;
@@ -422,7 +421,7 @@ ul.sidebar-menu li a.active i {
 
 .wrapper {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 60px;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
@@ -764,6 +763,61 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     margin-left: -180px;
 }
 
+
+/* Dash Side */
+
+.ds {
+	background: #d6d9dc;
+	padding-top: 20px;
+}
+
+.ds h4 {
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.ds i {
+	font-size: 14px;
+}
+
+.ds .desc {
+	border-bottom: 1px dotted #979797;
+	display: inline-block;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.ds .desc:hover {
+	background: #ffffff;
+}
+
+.ds .thumb {
+	width: 30px;
+	margin: 0 10px 0 20px;
+	display: block;
+	float: left;
+}
+
+.ds .details {
+	width: 170px;
+	float: left;
+}
+
+.ds > .desc p {
+	font-size: 11px;
+}
+
+.ds p > muted {
+	font-size: 9px;
+	text-transform: uppercase;
+	font-style: italic;
+	color: #666666
+}
+
+.ds a {
+	color: #4ECDC4;
+}
+
 /* MAIN CHART CONFIGURATION */
 .main-chart {
 	padding-top: 20px;
@@ -936,6 +990,29 @@ PANELS CONFIGURATIONS
 	margin-left:10px;
 	margin-right: 10px;
 	font-weight: 700;
+}
+
+/*Green Panel*/
+.green-panel {
+	text-align: center;
+	background: #4ECDC4;
+}
+.green-panel .green-header {
+	background: #43b1a9;
+	padding: 3px;
+	margin-bottom: 15px;
+}
+.green-panel h5 {
+	color: white;
+	font-weight: 200;
+	margin-top: 10px;
+}
+.green-panel h3 {
+	color: white;
+	font-weight: 100;
+}
+.green-panel p {
+	color: white;
 }
 
 /*White Panel */

@@ -471,14 +471,6 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
   padding: 13px 15px;
   width: 100%;
 }
-
-.widget-header-body {
-  text-align:left;
-  font-size: 15px;
-  padding: 13px 300px;
-  width: 100%;
-}
-
 .row-content {
   padding: 20px;
 }
@@ -502,10 +494,10 @@ ul.tpl-dropdown-content .tpl-dropdown-menu-messages-item .menu-messages-content 
   margin-bottom: 8px;
 }
 .widget-body-md {
-  height: 50px;
+  height: 200px;
 }
 .widget-body-lg {
-  min-height: 230px;
+  min-height: 330px;
 }
 .widget-margin-bottom-lg {
   margin-bottom: 20px;

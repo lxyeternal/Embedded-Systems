@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/adminlte/css/AdminLTE.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='plugins/adminlte/css/skins/skin-blue.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/global.css') }}">
+    <link href="../static/css/style.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="plugins/html5shiv.min.js"></script>
     <script src="plugins/respond.min.js"></script>
@@ -87,7 +88,7 @@
                     </a>
                     <ul class="treeview-menu">
                         <li><a href="{{ url_for('main.now') }}"><i class="fa fa-circle-o"></i> 实时数据</a></li>
-                        <li><a href="{{ url_for('main.notifylist') }}"><i class="fa fa-circle-o"></i> 历史数据</a></li>
+                        <li><a href="{{ url_for('main.history') }}"><i class="fa fa-circle-o"></i> 历史数据</a></li>
                     </ul>
                 </li>
                 <li class="treeview">
