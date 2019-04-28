@@ -1,10 +1,11 @@
 import pymysql
+import time
 from config import *
 
 
 sql_six_table = "select time,m_tep,m_hum from day order by time DESC"
 sql_all_table = "select time,m_tep,m_hum from day order by time ASC"
-sql_table_notice = "select distinct time from vul_info order by time DESC"
+sql_table_notice = "select distinct date from vul_info order by date DESC"
 sql_table_notice_six = "select time,m_tep,m_hum from day where time = %d"
 sql_detail = "select time,1_tep,2_tep,3_tep,4_tep,5_tep,6_tep,7_tep,8_tep,9_tep,10_tep,11_tep,12_tep,1_hum,2_hum,3_hum,4_hum,5_hum,6_hum,7_hum,8_hum,9_hum,10_hum,11_hum,12_hum,h_tep,m_tep,l_tep,h_hum,m_hum,l_hum from day where time = %d"
 connect = pymysql.connect(
@@ -72,6 +73,7 @@ def select_table_notice():
         time_list.append(data_time)
     return time_list
 
+
 def select_table_notice_six(time_list):
 
     table_all = []
@@ -98,6 +100,16 @@ def data_find(time):
     tem_list = result_list[1:13]
     hum_list = result_list[13:25]
     return time_data,tem_list,hum_list
+
+def now_index():
+
+    day_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))
+    accurate_time = time.strftime('%H:%M:%S', time.localtime(time.time()))
+    time_int = time_deal_int(day_time)
+    time_data, tem_list, hum_list = data_find(int(time_int))
+    return day_time,accurate_time,tem_list,hum_list
+
+
 
 
 

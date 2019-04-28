@@ -45,7 +45,7 @@
           <li>
             <a>
               <i class="fa fa-map-marker"></i>
-              <span> 时间:2019-04-08/13:43 </span>
+              <span> 时间:{{ day_time }}/{{accurate_time}} </span>
               </a>
           </li>
 
@@ -77,8 +77,8 @@
 				var myChart0 = echarts.init(document.getElementById('main0'));
 				option0 = {
                 title: {
-                    text: '最近一小时温度数据',
-                    subtext: '2019-04-08'
+                    text: '当日温度数据',
+                    subtext: '{{ day_time }}'
                 },
                 tooltip: {
                     trigger: 'axis'
@@ -101,7 +101,7 @@
                 xAxis:  {
                     type: 'category',
                     boundaryGap: false,
-                    data: ['09:30','10:00','10:30','11:00','11:30','12:00','12:30','13:00','13:30','14:00']
+                    data: ['00:00','02:00','04:00','06:00','08:00','10:00','12:00','14:00','16:00','18:00','20:00','22:00']
                 },
                 yAxis: {
                     type: 'value',
@@ -113,7 +113,7 @@
                     {
                         name:'温度',
                         type:'line',
-                        data:[23.5,24,26,25.5,25,27,27.5,26,28,29],
+                        data:{{ tem_list }},
                         markPoint: {
                             data: [
                                 {name: '周最低', value: -2, xAxis: 1, yAxis: -1.5}
@@ -152,7 +152,7 @@
 				var myChart1 = echarts.init(document.getElementById('main1'));
                             option1 = {
                                 title : {
-                                    text: '最近三小时湿度数据',
+                                    text: '当日湿度数据',
                                     subtext: '树莓派'
                                 },
                                 tooltip : {
@@ -174,7 +174,7 @@
                                 xAxis : [
                                     {
                                         type : 'category',
-                                        data : ['09:30','10:00','10:30','11:00','11:30','12:00','12:30','13:00','13:30','14:00']
+                                        data: ['00:00','02:00','04:00','06:00','08:00','10:00','12:00','14:00','16:00','18:00','20:00','22:00']
                                     }
                                 ],
                                 yAxis : [
@@ -186,7 +186,7 @@
                                     {
                                         name:'湿度',
                                         type:'bar',
-                                        data:[58,70,67,77,79,84,92,40,62,80],
+                                        data:{{ hum_list }},
                                         markPoint : {
                                             data : [
                                                 {type : 'max', name: '最大值'},
