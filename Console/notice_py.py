@@ -1,5 +1,4 @@
 import pymysql
-import time
 from config import *
 
 

@@ -85,8 +85,13 @@ def index():
 @main.route('/now',methods = ['GET'])
 @login_required
 def now():
-    day_time, accurate_time, tem_list, hum_list = now_index()
-    print(day_time, accurate_time, tem_list, hum_list)
+    # day_time, accurate_time, tem_list, hum_list = now_index()
+    # print(day_time, accurate_time, tem_list, hum_list)
+    day_time = "2019-05-07"
+    accurate_time = "14:49:28"
+    # ['00:00', '02:00', '04:00', '06:00', '08:00', '10:00', '12:00', '14:00', '16:00', '18:00', '20:00', '22:00']
+    tem_list = [18,19,18,20,22,24,24,25]
+    hum_list = [50,48,57,60,54,53,55,57]
     return render_template('now.html',day_time = day_time, accurate_time = accurate_time, tem_list = tem_list, hum_list = hum_list)
 
 

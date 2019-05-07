@@ -103,6 +103,7 @@ def data_find(time):
 
 def now_index():
 
+
     day_time = time.strftime('%Y-%m-%d', time.localtime(time.time()))
     accurate_time = time.strftime('%H:%M:%S', time.localtime(time.time()))
     time_int = time_deal_int(day_time)

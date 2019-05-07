@@ -1395,3 +1395,552 @@
 2019-04-28 10:38:39,714 werkzeug     INFO     127.0.0.1 - - [28/Apr/2019 10:38:39] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
 2019-04-28 10:38:39,861 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
 2019-04-28 10:38:39,865 werkzeug     INFO     127.0.0.1 - - [28/Apr/2019 10:38:39] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-04-28 11:21:52,165 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-04-28 11:21:52,167 werkzeug     INFO      * Restarting with stat
+2019-04-28 11:21:52,492 werkzeug     WARNING   * Debugger is active!
+2019-04-28 11:21:52,505 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-04-28 11:21:53,925 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-04-28 11:21:53,944 werkzeug     INFO     127.0.0.1 - - [28/Apr/2019 11:21:53] "[32mGET / HTTP/1.1[0m" 302 -
+2019-04-28 11:21:53,955 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-04-28 11:21:54,002 werkzeug     INFO     127.0.0.1 - - [28/Apr/2019 11:21:54] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-04-28 11:22:19,043 werkzeug     INFO      * Detected change in '/Volumes/Study/2019大三下课程/嵌入式/代码/Console/notice_py.py', reloading
+2019-04-28 11:22:19,112 werkzeug     INFO      * Restarting with stat
+2019-04-28 11:22:19,538 werkzeug     WARNING   * Debugger is active!
+2019-04-28 11:22:19,555 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-04-28 11:23:11,352 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-04-28 11:23:11,385 werkzeug     INFO     127.0.0.1 - - [28/Apr/2019 11:23:11] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-02 08:55:31,766 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-02 08:55:31,767 werkzeug     INFO      * Restarting with stat
+2019-05-02 08:55:32,111 werkzeug     WARNING   * Debugger is active!
+2019-05-02 08:55:32,121 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-02 08:55:33,391 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:33,415 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:33] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-02 08:55:33,426 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:33,512 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:33] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-02 08:55:33,584 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:33] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+2019-05-02 08:55:33,973 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:33,983 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:33] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-02 08:55:38,621 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:38,627 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:38] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-02 08:55:38,721 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:38,725 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:38] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-02 08:55:44,333 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:44,361 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[1m[35mGET /now HTTP/1.1[0m" 500 -
+2019-05-02 08:55:44,380 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-02 08:55:44,388 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:44,389 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:44,477 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-02 08:55:44,496 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-02 08:55:44,701 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:44] "[37mGET /now?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,652 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:50,683 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,709 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[37mGET /static/js/echarts.min.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,714 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,718 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:50,731 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[36mGET /static/css/amazeui.datatables.min.css HTTP/1.1[0m" 304 -
+2019-05-02 08:55:50,733 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[36mGET /static/css/amazeui.min.css HTTP/1.1[0m" 304 -
+2019-05-02 08:55:50,740 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[36mGET /static/css/app.css HTTP/1.1[0m" 304 -
+2019-05-02 08:55:50,751 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-02 08:55:50,751 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[37mGET /static/js/amazeui.min.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,758 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[37mGET /static/js/amazeui.datatables.min.js HTTP/1.1[0m" 200 -
+2019-05-02 08:55:50,762 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2019-05-02 08:55:50,764 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[36mGET /static/js/dataTables.responsive.min.js HTTP/1.1[0m" 304 -
+2019-05-02 08:55:50,824 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:50,829 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-02 08:55:50,923 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:50,927 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:55:50,975 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:50,981 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:50] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:55:51,032 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:55:51,039 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:55:51] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:56:01,758 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:01,772 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /hist_day/20190301 HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,815 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,819 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/font-awesome/css/font-awesome.css HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,829 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/css/zabuto_calendar.css HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,831 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/gritter/css/jquery.gritter.css HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,835 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/chart-master/Chart.js HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,841 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/css/style-responsive.css HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,842 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,843 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/images/ui-sam.jpg HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,875 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/jquery.dcjqaccordion.2.7.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,878 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/jquery.scrollTo.min.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,890 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/jquery.sparkline.js HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,891 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/jquery.nicescroll.js HTTP/1.1[0m" 200 -
+2019-05-02 08:56:01,903 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/common-scripts.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,906 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/gritter/js/jquery.gritter.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,912 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/gritter-conf.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,916 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[36mGET /static/lib/sparkline-chart.js HTTP/1.1[0m" 304 -
+2019-05-02 08:56:01,921 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:01] "[37mGET /static/lib/zabuto_calendar.js HTTP/1.1[0m" 200 -
+2019-05-02 08:56:02,087 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:02] "[37mGET /static/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 200 -
+2019-05-02 08:56:10,155 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,200 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-02 08:56:10,221 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,233 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-02 08:56:10,264 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,269 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-02 08:56:10,422 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,428 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:56:10,547 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,556 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:56:10,576 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:10,580 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:10] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-02 08:56:17,702 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:17,712 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:17] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-02 08:56:17,776 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-02 08:56:17,780 werkzeug     INFO     127.0.0.1 - - [02/May/2019 08:56:17] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 14:40:00,388 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-07 14:40:00,390 werkzeug     INFO      * Restarting with stat
+2019-05-07 14:40:00,721 werkzeug     WARNING   * Debugger is active!
+2019-05-07 14:40:00,742 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 14:40:01,876 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:01] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 14:40:01,931 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:01] "[37mGET /login?next=%2F HTTP/1.1[0m" 200 -
+2019-05-07 14:40:02,029 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:02,037 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[37mGET /static/plugins/adminlte/css/AdminLTE.min.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:02,039 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/iCheck/square/blue.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,043 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/pace/pace.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,045 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/adminlte/css/skins/skin-blue.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,059 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[37mGET /static/plugins/jQuery/jquery-2.2.3.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:02,063 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/css/global.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,065 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,074 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/pace/pace.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,075 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/iCheck/icheck.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,076 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/js/global.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,657 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2 HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,695 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[36mGET /static/plugins/iCheck/square/blue@2x.png HTTP/1.1[0m" 304 -
+2019-05-07 14:40:02,829 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2019-05-07 14:40:08,413 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['admin', 1, 0])
+2019-05-07 14:40:08,451 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[32mPOST /login?next=%2F HTTP/1.1[0m" 302 -
+2019-05-07 14:40:08,459 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:08,466 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 14:40:08,472 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:08,483 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,522 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/plugins/ionicons/css/ionicons.min.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,532 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/css/style.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,541 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,545 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/select2/select2.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,547 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/bootstrap-slider/slider.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,555 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/bootstrap-switch/bootstrap-switch.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,560 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/slimScroll/jquery.slimscroll.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,567 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/plugins/bootstrap-slider/bootstrap-slider.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,567 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/fastclick/fastclick.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,575 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/adminlte/js/app.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,577 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/plugins/select2/select2.full.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,580 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[36mGET /static/plugins/bootstrap-switch/bootstrap-switch.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:08,588 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/images/avatar.jpg HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,740 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,740 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[37mGET /static/plugins/ionicons/fonts/ionicons.ttf?v=2.0.0 HTTP/1.1[0m" 200 -
+2019-05-07 14:40:08,803 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:08,810 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:08] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 14:40:12,409 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:12,438 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[1m[35mGET /now HTTP/1.1[0m" 500 -
+2019-05-07 14:40:12,464 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[37mGET /now?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:12,474 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[37mGET /now?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:12,474 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[37mGET /now?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:12,583 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[37mGET /now?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 14:40:12,601 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:12] "[37mGET /now?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,607 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:26,644 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,674 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/js/echarts.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,674 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/css/amazeui.min.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,678 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/css/app.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,684 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,688 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:26,699 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[36mGET /static/css/amazeui.datatables.min.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:26,709 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:40:26,714 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/js/amazeui.datatables.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,719 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:26,719 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[37mGET /static/js/amazeui.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:26,722 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[36mGET /static/js/dataTables.responsive.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:26,792 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:26,797 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:40:26,917 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:26,925 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:40:26,961 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:26,966 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:26] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:40:27,027 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:27,033 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:27] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:40:27,137 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:27] "[36mGET /static/i/favicon.png HTTP/1.1[0m" 304 -
+2019-05-07 14:40:35,896 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:35,916 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /hist_day/20190431 HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,962 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /static/lib/font-awesome/css/font-awesome.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,965 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /static/lib/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,968 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /static/lib/chart-master/echarts.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,975 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[36mGET /static/css/style-responsive.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:35,980 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /static/lib/chart-master/Chart.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,983 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[36mGET /static/css/zabuto_calendar.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:35,988 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[36mGET /static/lib/gritter/css/jquery.gritter.css HTTP/1.1[0m" 304 -
+2019-05-07 14:40:35,990 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[37mGET /static/lib/bootstrap/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:35,996 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:35] "[36mGET /static/images/ui-sam.jpg HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,011 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/jquery.dcjqaccordion.2.7.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,028 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/jquery.scrollTo.min.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,029 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[37mGET /static/lib/jquery.nicescroll.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:36,046 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[37mGET /static/lib/jquery.sparkline.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:36,050 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/common-scripts.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,059 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/gritter/js/jquery.gritter.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,061 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/gritter-conf.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,070 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/lib/sparkline-chart.js HTTP/1.1[0m" 304 -
+2019-05-07 14:40:36,071 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[37mGET /static/lib/zabuto_calendar.js HTTP/1.1[0m" 200 -
+2019-05-07 14:40:36,294 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[37mGET /static/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1[0m" 200 -
+2019-05-07 14:40:36,518 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:36] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2019-05-07 14:40:41,864 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:40:41,869 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:40:41] "[37mGET /hist_day/20190425 HTTP/1.1[0m" 200 -
+2019-05-07 14:43:02,543 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:02,597 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:02] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 14:43:02,631 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:02,662 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:02] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:43:02,688 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:02,694 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:02] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:43:02,842 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:02,863 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:02] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:43:03,029 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:03,041 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:03] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:43:03,207 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:03,214 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:03] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:43:05,812 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:05,827 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[1m[35mGET /hist_day/2019-04-27 HTTP/1.1[0m" 500 -
+2019-05-07 14:43:05,877 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-07 14:43:05,878 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-07 14:43:05,879 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-07 14:43:05,956 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 14:43:05,964 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:05] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-07 14:43:06,078 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:06] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 14:43:09,457 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:43:09,470 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:43:09] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:45:47,895 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:47,908 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:47] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 14:45:47,991 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:47,996 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:47] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 14:45:55,010 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,040 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 14:45:55,063 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,081 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:45:55,127 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,132 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:45:55,309 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,315 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:45:55,428 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,437 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:45:55,590 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:45:55,598 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:45:55] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:46:10,743 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:10,756 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:10] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 14:46:10,783 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:10,796 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:10] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:46:10,829 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:10,834 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:10] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:46:10,895 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:10,900 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:10] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:46:10,990 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:10,998 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:10] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:46:11,036 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:11,042 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:11] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:46:13,727 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:13,731 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:13] "[37mGET /hist_day/20190428 HTTP/1.1[0m" 200 -
+2019-05-07 14:46:20,697 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:46:20,716 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[1m[35mGET /now HTTP/1.1[0m" 500 -
+2019-05-07 14:46:20,743 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[37mGET /now?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-07 14:46:20,745 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[37mGET /now?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-07 14:46:20,746 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[37mGET /now?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-07 14:46:20,831 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[37mGET /now?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 14:46:20,851 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:46:20] "[37mGET /now?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-07 14:47:21,738 werkzeug     INFO      * Detected change in '/Volumes/Study/2019大三下课程/嵌入式/代码/Console/history_data.py', reloading
+2019-05-07 14:47:21,811 werkzeug     INFO      * Restarting with stat
+2019-05-07 14:47:22,465 werkzeug     WARNING   * Debugger is active!
+2019-05-07 14:47:22,482 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 14:50:47,268 werkzeug     INFO      * Detected change in '/Volumes/Study/2019大三下课程/嵌入式/代码/Console/app/main/views.py', reloading
+2019-05-07 14:50:47,330 werkzeug     INFO      * Restarting with stat
+2019-05-07 14:50:47,977 werkzeug     WARNING   * Debugger is active!
+2019-05-07 14:50:47,991 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 14:51:06,343 werkzeug     INFO      * Detected change in '/Volumes/Study/2019大三下课程/嵌入式/代码/Console/app/main/views.py', reloading
+2019-05-07 14:51:06,382 werkzeug     INFO      * Restarting with stat
+2019-05-07 14:51:06,936 werkzeug     WARNING   * Debugger is active!
+2019-05-07 14:51:06,949 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 14:51:10,302 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:51:10,320 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[1m[35mGET /now HTTP/1.1[0m" 500 -
+2019-05-07 14:51:10,352 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[37mGET /now?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-07 14:51:10,355 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[37mGET /now?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-07 14:51:10,357 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[37mGET /now?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-07 14:51:10,409 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[37mGET /now?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 14:51:10,450 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:10] "[37mGET /now?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-07 14:51:26,302 werkzeug     INFO      * Detected change in '/Volumes/Study/2019大三下课程/嵌入式/代码/Console/app/main/views.py', reloading
+2019-05-07 14:51:26,350 werkzeug     INFO      * Restarting with stat
+2019-05-07 14:51:26,735 werkzeug     WARNING   * Debugger is active!
+2019-05-07 14:51:26,746 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 14:51:27,019 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:51:27,036 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:27] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 14:51:27,489 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:27] "[37mGET /static/images/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 14:51:58,579 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:51:58,607 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:58] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 14:51:58,700 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:51:58,710 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:51:58] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 14:52:16,446 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:16,457 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:16] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 14:52:16,551 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:16,557 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:16] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 14:52:19,852 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:19,862 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:19] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 14:52:23,507 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,533 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 14:52:23,566 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,577 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:52:23,625 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,631 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 14:52:23,689 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,697 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:52:23,760 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,772 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:52:23,819 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:23,829 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:23] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 14:52:29,764 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:29,778 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:29] "[37mGET /hist_day/20190312 HTTP/1.1[0m" 200 -
+2019-05-07 14:52:41,525 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:41,529 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:41] "[37mGET /hist_day/20190427 HTTP/1.1[0m" 200 -
+2019-05-07 14:52:48,635 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:48,641 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:48] "[37mGET /hist_day/20190426 HTTP/1.1[0m" 200 -
+2019-05-07 14:52:56,723 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 14:52:56,727 werkzeug     INFO     127.0.0.1 - - [07/May/2019 14:52:56] "[37mGET /hist_day/20190427 HTTP/1.1[0m" 200 -
+2019-05-07 15:04:40,968 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:40,989 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:40] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:04:41,038 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:41,053 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:04:41,110 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:41,115 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:04:41,203 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:41,210 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:04:41,283 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:41,290 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:04:41,333 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:41,341 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:04:41,706 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:41] "[37mGET /static/i/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 15:04:50,636 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,648 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:04:50,675 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,691 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:04:50,718 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,722 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:04:50,780 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,787 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:04:50,843 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,851 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:04:50,873 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:04:50,877 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:04:50] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:05:18,539 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,559 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:05:18,604 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,618 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:05:18,663 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,667 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:05:18,739 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,746 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:05:18,838 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,843 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:05:18,908 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:05:18,914 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:18] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:05:19,121 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:05:19] "[37mGET /static/i/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 15:06:01,411 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,427 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:06:01,455 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,470 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:01,508 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,512 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:01,585 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,589 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:01,689 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,696 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:01,773 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:01,778 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:01,978 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:01] "[37mGET /static/i/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 15:06:29,619 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-07 15:06:29,620 werkzeug     INFO      * Restarting with stat
+2019-05-07 15:06:29,922 werkzeug     WARNING   * Debugger is active!
+2019-05-07 15:06:29,944 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 15:06:31,066 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:31,076 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:31] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 15:06:31,121 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:31,165 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:31] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:06:31,631 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:31,637 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:31] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:06:35,243 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:35,261 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:35] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 15:06:40,812 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:40,842 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:40] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:06:40,869 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:40,884 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:40] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:40,931 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:40,939 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:40] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:41,040 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:41,047 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:41] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:41,062 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:41,068 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:41] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:41,155 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:41,165 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:41] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:52,507 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:52,549 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:52] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:06:52,578 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:52,594 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:52] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:52,637 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:52,641 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:52] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:06:52,835 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:52,842 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:52] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:52,961 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:52,967 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:52] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:06:53,137 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:06:53,149 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:06:53] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:12:40,579 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-07 15:12:40,581 werkzeug     INFO      * Restarting with stat
+2019-05-07 15:12:40,894 werkzeug     WARNING   * Debugger is active!
+2019-05-07 15:12:40,908 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 15:12:42,857 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:12:42,868 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:12:42] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 15:12:42,919 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:12:42,968 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:12:42] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:12:43,334 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:12:43,342 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:12:43] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:12:46,378 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:12:46,390 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:12:46] "[32mGET /logout HTTP/1.1[0m" 302 -
+2019-05-07 15:12:46,412 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:12:46] "[37mGET /login HTTP/1.1[0m" 200 -
+2019-05-07 15:13:09,273 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['admin', 1, 0])
+2019-05-07 15:13:09,280 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2019-05-07 15:13:09,290 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:09,296 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:09] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:13:09,504 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:09,511 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:09] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:13:23,549 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:23,563 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:23] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 15:13:45,274 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,305 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:13:45,336 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,349 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:13:45,399 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,406 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:13:45,478 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,484 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:13:45,532 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,536 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:13:45,606 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:13:45,614 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:13:45] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:14:02,338 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:02,351 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:02] "[37mGET /hist_day/20190503 HTTP/1.1[0m" 200 -
+2019-05-07 15:14:29,688 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:29,741 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:29] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:14:29,776 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:29,789 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:29] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:14:29,845 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:29,855 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:29] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:14:30,044 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:30,050 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:30] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:14:30,185 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:30,192 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:30] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:14:30,476 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:30,483 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:30] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:14:38,684 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:38,702 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[1m[35mGET /hist_day/2019-04-27 HTTP/1.1[0m" 500 -
+2019-05-07 15:14:38,764 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+2019-05-07 15:14:38,764 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+2019-05-07 15:14:38,765 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+2019-05-07 15:14:38,864 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+2019-05-07 15:14:38,883 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:38] "[37mGET /hist_day/2019-04-27?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+2019-05-07 15:14:40,825 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:14:40,842 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:14:40] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:16:32,613 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:32,620 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:32] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 15:16:38,279 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,313 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:16:38,343 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,357 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:16:38,401 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,406 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:16:38,504 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,511 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:16:38,713 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,724 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:16:38,860 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:16:38,869 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:16:38] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:23,291 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,323 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:18:23,377 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,387 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:18:23,429 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,434 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:18:23,607 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,615 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:23,776 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,785 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:23,926 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:23,932 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:23] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:24,661 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:24] "[37mGET /static/i/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 15:18:26,755 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:26,790 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:26] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:18:26,846 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:26,856 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:26] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:18:26,885 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:26,888 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:26] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:18:26,976 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:26,981 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:26] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:27,232 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:27,244 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:27] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:27,263 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:18:27,269 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:27] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:18:27,912 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:18:27] "[37mGET /static/i/favicon.png HTTP/1.1[0m" 200 -
+2019-05-07 15:20:20,290 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:20:20,304 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:20:20] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:20:20,408 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:20:20,412 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:20:20] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:21:04,094 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-07 15:21:04,096 werkzeug     INFO      * Restarting with stat
+2019-05-07 15:21:04,397 werkzeug     WARNING   * Debugger is active!
+2019-05-07 15:21:04,414 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 15:21:05,505 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:21:05,526 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:21:05] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 15:21:05,535 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:21:05,575 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:21:05] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:21:05,993 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:21:06,002 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:21:06] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:21:10,539 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:21:10,555 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:21:10] "[32mGET /logout HTTP/1.1[0m" 302 -
+2019-05-07 15:21:10,579 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:21:10] "[37mGET /login HTTP/1.1[0m" 200 -
+2019-05-07 15:22:21,879 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`username` = %s) LIMIT %s OFFSET %s', ['admin', 1, 0])
+2019-05-07 15:22:21,886 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:21] "[32mPOST /login HTTP/1.1[0m" 302 -
+2019-05-07 15:22:21,897 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:21,901 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:21] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:22:22,097 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:22,105 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:22] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
+2019-05-07 15:22:35,823 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:35,835 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:35] "[37mGET /now HTTP/1.1[0m" 200 -
+2019-05-07 15:22:51,675 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:51,705 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:51] "[37mGET /history HTTP/1.1[0m" 200 -
+2019-05-07 15:22:51,747 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:51,753 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:51] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:22:51,827 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:51,835 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:51] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:22:51,911 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:51,918 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:51] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:22:51,963 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:51,969 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:51] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:22:52,031 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:22:52,039 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:22:52] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:23:02,794 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:02,810 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:02] "[37mGET /hist_day/20190502 HTTP/1.1[0m" 200 -
+2019-05-07 15:23:37,083 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,127 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[37mGET /notice HTTP/1.1[0m" 200 -
+2019-05-07 15:23:37,150 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,164 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:23:37,213 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,218 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[33mGET /assets/js/theme.js HTTP/1.1[0m" 404 -
+2019-05-07 15:23:37,397 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,403 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[33mGET /static/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:23:37,529 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,541 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[33mGET /static/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:23:37,708 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:23:37,719 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:23:37] "[33mGET /static/fonts/fontawesome-webfont.ttf?v=4.6.3 HTTP/1.1[0m" 404 -
+2019-05-07 15:25:34,304 werkzeug     INFO      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2019-05-07 15:25:34,306 werkzeug     INFO      * Restarting with stat
+2019-05-07 15:25:34,634 werkzeug     WARNING   * Debugger is active!
+2019-05-07 15:25:34,646 werkzeug     INFO      * Debugger PIN: 236-085-505
+2019-05-07 15:25:35,416 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:25:35,424 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:25:35] "[32mGET / HTTP/1.1[0m" 302 -
+2019-05-07 15:25:35,476 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:25:35,539 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:25:35] "[37mGET /index HTTP/1.1[0m" 200 -
+2019-05-07 15:25:36,028 peewee       DEBUG    ('SELECT `t1`.`id`, `t1`.`username`, `t1`.`password`, `t1`.`fullname`, `t1`.`email`, `t1`.`phone`, `t1`.`status` FROM `user` AS `t1` WHERE (`t1`.`id` = %s) LIMIT %s OFFSET %s', [1, 1, 0])
+2019-05-07 15:25:36,038 werkzeug     INFO     127.0.0.1 - - [07/May/2019 15:25:36] "[33mGET /api/stats/summary HTTP/1.1[0m" 404 -
